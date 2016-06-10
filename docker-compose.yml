@@ -1,0 +1,7 @@
+rabbitmq:
+  build: .
+  container_name: somerabbit
+  hostname: bunny
+  ports: 
+    - "5672:5672" 
+    - "8080:15672"
